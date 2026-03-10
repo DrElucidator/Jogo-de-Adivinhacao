@@ -89,16 +89,20 @@ while (true)
         if (NumPalpite == sortNum)
         {
             Console.Clear();
+            Console.WriteLine();
             Console.WriteLine("Parabéns! Você acertou!");
+            Console.WriteLine();
             Console.WriteLine("O número sorteado foi: " + sortNum);
             break;
         }
         else if (NumPalpite < sortNum)
         {
+            Console.WriteLine();
             Console.WriteLine("Tente um número maior!");
         }
         else
         {
+            Console.WriteLine();
             Console.WriteLine("Tente um número menor!");
         }
 
@@ -111,6 +115,7 @@ while (true)
         else
             pontuacao -= 20;
 
+        Console.WriteLine();
         Console.WriteLine("Sua pontuação é: " + pontuacao);
         Console.ReadLine();
 
