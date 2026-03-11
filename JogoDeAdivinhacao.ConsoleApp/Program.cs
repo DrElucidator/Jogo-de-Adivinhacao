@@ -31,12 +31,15 @@ class Program
         Console.Clear();
         Console.WriteLine("Digite como prefere ser chamado: ");
         string? ID = Console.ReadLine();
-        Console.WriteLine("--------------------------------------------");
-        Console.WriteLine(ID + "," + boasvindas);
-        Console.WriteLine("--------------------------------------------");
         if (ID == null || ID == "")
         {
             Console.WriteLine(boasvindas);
+        }
+        else
+        {
+            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine(ID + "," + boasvindas);
+            Console.WriteLine("--------------------------------------------");
         }
         Console.WriteLine();
         Console.WriteLine("Digite ENTER para iniciar...");
