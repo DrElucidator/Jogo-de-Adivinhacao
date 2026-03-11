@@ -22,7 +22,7 @@ Este repositório contém um simples jogo de adivinhação desenvolvido em C# co
    dotnet run --project JogoDeAdivinhacao.ConsoleApp
    ```
 
-> O jogo também pode ser executado diretamente pelo executável gerado (`Program.exe`) dentro da pasta `bin/Debug/netX.X`.
+Como alternativa, descompacte o arquivo .7z e rode no seu pc.
 
 ## Estrutura do projeto
 
