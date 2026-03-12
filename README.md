@@ -22,8 +22,6 @@ Este repositório contém um simples jogo de adivinhação desenvolvido em C# co
    dotnet run --project JogoDeAdivinhacao.ConsoleApp
    ```
 
-Como alternativa, descompacte o arquivo .7z e rode no seu pc.
-
 ## Estrutura do projeto
 
 - `JogoDeAdivinhacao.ConsoleApp/`: código fonte do jogo.
